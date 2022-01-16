@@ -5,7 +5,7 @@ public class Objective2Lab3 {
     num2 = 6;
     num3 = 2;
     double sum= num1 + num2 + num3;
-    double avg= sum / 3;
-    System.out.println(avg);
+    double average= sum / 3;
+    System.out.println(average);
   }
 }
