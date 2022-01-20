@@ -9,8 +9,9 @@ public class Objective9Lab5 {
 		int choice;
 		double answer = 0.0;
 
-      System.out.println("Please give me a number:" );
-      num1= kb.nextInt();
+      System.out.print("Please give me a number:");
+       num1= kb.nextInt();
+
     // Part 1:
     // prompt the user to provide one number and store their input in num1
     /*
@@ -18,7 +19,7 @@ public class Objective9Lab5 {
     */
 
 
-      System.out.println("Please give me another number:" );
+      System.out.print("Please give me another number:" );
       num2= kb.nextInt();
     // Part 2:
     // Prompt the user for another number and store their input in num2
@@ -51,7 +52,7 @@ public class Objective9Lab5 {
 
         case 4:
           System.out.println("You've chosen to quit.");
-          break;
+          return;
 
         default:
           System.out.println("Invalid entry. Please try again");
